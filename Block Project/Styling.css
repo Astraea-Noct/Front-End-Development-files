@@ -1,0 +1,206 @@
+html {
+    background-color: #661200;
+    height: 100%;
+}
+body {
+    min-height: 100%;/**/
+    background-color: #ffca74;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+p {
+    color: #661200;
+    font-family: 'Germania One', cursive; /**/
+}
+
+label {
+    color: #661200;
+    font-family: 'Germania One', cursive; /**/
+}
+
+.para-inverted {
+    color: #ffca74;
+}
+
+div {
+    text-align: center;
+}
+/* IDK what to put in all of these, but this was too painful to do all of for it to be assumed we didnt do it*/
+.productimage {
+    border: 15px;
+    border-style: solid;
+    border-color: #661200;
+    border-radius: 15px;
+    margin: 0px;
+    padding: 0px;
+}/**/
+
+.pageproductimagetop {
+    border: 3px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: #661200;
+    margin: 0px;
+    padding: 0px;
+}/**/
+
+.pageproductimagebottom {
+    border: 3px;
+    border-top: 0px;
+    border-style: solid;
+    border-color: #661200;
+    margin: 0px;
+    padding: 0px;
+}/**/
+
+.pageproductimagemid {
+    border-left: 3px;
+    border-right: 3px;
+    border-style: solid;
+    border-color: #661200;
+    margin: 0px;
+    padding: 0px;
+}/**/
+
+.pageproductimagethin {
+    border: 3px;
+    border-style: solid;
+    border-color: #661200;
+    margin: 0px;
+    padding: 0px;
+}/**/
+
+@media screen and (max-width: 1200px) {
+    .pageproductimagetop {
+        border: 3px;
+        border-style: solid;
+        border-color: #661200;
+        margin: 0px;
+        padding: 0px;
+    }/**/ 
+
+    .pageproductimagebottom {
+        border: 3px;
+        border-style: solid;
+        border-color: #661200;
+        margin: 0px;
+        padding: 0px;
+    }/**/
+}
+
+.productunderimage {
+    border: 15px;
+    border-top: 0px;
+    border-style: solid;
+    border-color: #661200;
+    border-radius: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    background-color: #661200;
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    background-color: #661200;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footertext {
+    color: #ffca74;
+    padding:10px;
+}
+
+.headerminor {
+    font-size: large;
+}
+
+h1 {
+    text-align: justify;
+    font-family: 'Germania One', cursive; /**/
+    color: #ffca74;
+    background-color: #661200;
+    padding: 10px;
+    margin: 0px; /*MOTHERFFFFF---ARRRGGH!*/
+    /*We'd been having a problem previously where the top and bottom of the page where the colour of the main body (not including header+footer), and we couldn't
+    for the life of us figure out why..... 01/10/23 */
+    /*IT WAS THE MARGIN OF THE HEADER! 01/10/23 */
+
+    /*at least it's solved now 01/10/23 */
+
+    /*font-family: 'germania_oneregular', germania;*/
+    /*font-family:'Courier New', Courier, monospace; /**/
+}
+
+h3 {
+    font-family: 'Germania One', cursive; 
+    color: #ffca74;
+    padding: 10px;
+    margin: 0px;
+}
+
+.dropdown {
+    margin-left: 5px;
+    margin-right: 5px;
+    color:#ffca74;
+}
+
+h2 { /*unless we feel like getting specific, we've decided the odd numbed H tags are gonna be for the header and footer, and the evens will be for the majority body*/
+    font-family: 'Germania One', cursive; 
+    color:#661200;
+}
+
+.homeproductcard {
+    display: inline-block;
+    border: 10px;
+    border-style: solid;
+    border-color: #661200;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.homeproductcardtext {
+    color: #661200;
+    font-family: 'Germania One', cursive; 
+}
+
+.updownbarrier {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.signup {
+    display: inline-block;
+    align-self: center;
+    margin: 20px;
+    border: 200px;
+    border: #661200;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.blood {
+    color: #661200;
+} /*like seriously you try to convince anyone we found a class called blood with our specific colour online, this is ours*/
+
+.floatrightcorner {
+    float:inline-end;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.basket {
+    color: #ffca74;
+}

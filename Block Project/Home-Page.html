@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link  rel="stylesheet" type="text/CSS" href="Styling.css" > <!--Okay so putting OUR stylesheet we've been using Below which gives it priortiy? Maybe? It's working at least 15/10/2023-->
+        <Title>Home</Title>
+        <meta charset="utf-8">
+        <!--<link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet"> -->
+
+        <!--<meta charset="utf-8">-->
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid"> <!--Constantly updating our header in every single page has got to be the most tedious and annoying thing we cosistently do 16/10/23-->
+                <h1> <a href="Home-Page.html"><img src="Website-Images/Website-Logo-(Inverted).png" width="75" alt="Website logo"></a> Dragon's Hoard  <span class="headerminor"> TTRPG Books and Dice</span><span class="floatrightcorner"><a href="Main-Pages/Basket.html" class="basket" >Basket</a></span></h1> 
+                <h3> <a class="dropdown" href="Product-Pages/Dice-Pages/Dice.html">Dice</a> <a class="dropdown" href="Product-Pages/Book-Pages/Books.html">Books</a> <a class="dropdown" href="Main-Pages/Sign-Up.html" >Sign In</a> <a class="dropdown" href="Main-Pages/Contact-Us.html" >Contact Us</a> <a class="dropdown" href="Main-Pages/About-Us.html" >About Us</a> </h3>
+            </div> <!--These are all at like 10pm to half eleven the executive dysfunction was BAD today 16/10/23--> <!--One thing we dont understand is why when we just make our page smaller our header flexes nicely but refuses to when we use the little switch frame in the inspect menu to do it? Like, what's your damage Duncan? 16/10/23-->
+        </header>
+
+        <div class="container-fluid"> <!--So the fluid container lets us use the entire width of the screen for our product cards, helpful-->
+            <h2 class="mt-3">Dice</h2>
+            <div class="row">
+                <div class="homeproductcard col"> <!--Since theres no specified number for the col classes, they'll just divide it evenly between the four of them-->
+                    <a href="Product-Pages/Dice-Pages/Earthblood-Dice/Earthblood-Dice-Product-Page.html"> <img src="Product-Pages/Dice-Pages/Earthblood-Dice/Earthblood-Full-Set.jpg" width="200" alt="Earthblood full set image"> </a>
+                    <br>
+                    <h5><a class="homeproductcardtext" href="Product-Pages/Dice-Pages/Earthblood-Dice/Earthblood-Dice-Product-Page.html"> EarthBlood Dice Set</a></h5>
+                </div>
+
+                <div class="homeproductcard col">
+                    <a href="Product-Pages/Dice-Pages/Sunflame-Dice/Sunflame-Dice-Product-Page.html"> <img src="Product-Pages/Dice-Pages/Sunflame-Dice/Sunflame-Full-Dice-Set.jpeg" width="200" alt="Sunflame full set image"> </a>
+                    <br>
+                    <h5><a class="homeproductcardtext" href="Product-Pages/Dice-Pages/Sunflame-Dice/Sunflame-Dice-Product-Page.html"> Sunflame Dice Set </a></h5>
+                </div>
+
+                <div class="homeproductcard col"> <!--Same as the other col classes-->
+                    <a href="Product-Pages/Dice-Pages/Adder's-Fang-Dice/Adder's-Fang-Dice-Product-Page.html"> <img src="Product-Pages/Dice-Pages/Adder's-Fang-Dice/Adder's-Fang-Full-Set.jpg" width="200" alt="Adder's fang full set image"> </a>
+                    <br>
+                    <h5><a class="homeproductcardtext" href="Product-Pages/Dice-Pages/Adder's-Fang-Dice/Adder's-Fang-Dice-Product-Page.html"> Adder's Fang Dice Set </a></h5>
+                </div>  
+
+                <div class="homeproductcard col">
+                    <a href="Product-Pages/Dice-Pages/Crow's-Bone-Dice/Crow's-Bone-Dice-Product-Page.html"> <img src="Product-Pages/Dice-Pages/Crow's-Bone-Dice/Crow's-Bone-Full-Set.jpg" width="200" alt="Crow's bone full set image"> </a>
+                    <br>
+                    <h5><a class="homeproductcardtext" href="Product-Pages/Dice-Pages/Crow's-Bone-Dice/Crow's-Bone-Dice-Product-Page.html"> Crow's Bone Dice Set </a></h5> 
+                </div>
+            </div>
+            <h2 class="mt-2">Books</h2>
+            <div class="container-fluid mb-4">
+                <div class="homeproductcard col">
+                    <a href="Product-Pages/Book-Pages/Player's-Handbook/Player's-Handbook-Product-Page.html"> <img src="Product-Pages/Book-Pages/Player's-Handbook/Images/Player's-Handbook-Cover.png" Width="200" alt="Player's handbook front cover image"> </a>
+                    <br>
+                    <h5><a class="homeproductcardtext" href="Product-Pages/Book-Pages/Player's-Handbook/Player's-Handbook-Product-Page.html">Player's Handbook</a> </h5>
+                </div>
+                <div class="homeproductcard col">
+                    <a href="Product-Pages/Book-Pages/DMG/DMG-Product-Page.html"> <img src="Product-Pages/Book-Pages/DMG/Images/DMG-Cover.png" height="266" alt="DMG front cover image"> </a>
+                    <br>
+                    <h5><a class="homeproductcardtext" href="Product-Pages/Book-Pages/DMG/DMG-Product-Page.html">Dungeon Master's Guide</a> </h5>
+                </div>
+            </div>
+        </div>
+        <!-- <footer class="container-fluid">
+            <p class="text-white">Footer fill</p>
+        </footer> -->
+    </body>
+</html>  <!--Okay so we used a different file to test run our bootstrap, then when it worked fine, pasted it over to here, but what the actual hell it went from 46 to 64 lines what? I didn't think it was that much difference 16/10/23-->     
+
+<!--
+    Things to do:
+    1:
+-->
